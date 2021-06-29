@@ -1,0 +1,24 @@
+{
+  "name": "@local-cli/stylelint-config",
+  "version": "0.1.0-beta.1",
+  "main": "index.js",
+  "repository": "git@github.com:local-cli/stylelint-config.git",
+  "author": "jingchaofang",
+  "license": "MIT",
+  "scripts": {
+    "release": "local-release --skipBuild"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "stylelint": ">=11.0.0"
+  },
+  "devDependencies": {
+    "local-release": "^0.1.1",
+    "stylelint": "^13.13.1"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2"
+  }
+}
